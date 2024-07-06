@@ -57,7 +57,7 @@ body::-webkit-scrollbar {
     position: relative;
     background-color: rgb(227, 244, 248);
     left: 3.5px;
-  } */
+    } */
 .nav_search input {
     border: 0px;
     width: 972px;
@@ -132,8 +132,8 @@ input[type="search"]:focus {
     position: relative;
     z-index: 2;
     /* position: relative;
-    left: 726.5px;
-    bottom: 14px; */
+        left: 726.5px;
+        bottom: 14px; */
     width: 300px;
     background-color: #ffffff;
     color: black;
@@ -269,6 +269,41 @@ input[type="search"]:focus {
     bottom: 80px;
     left: 60px;
     display: block;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .navbar {
+        max-width: 600px;
+        height: 50px;
+    }
+
+    .logo {
+        margin-right: 50px;
+        height: 100%;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav_search {
+        display: none
+    }
+
+    .login {
+        margin-left: 95%;
+        font-size: x-large;
+    }
+
+
+    .triple,
+    .seller,
+    .options,
+    .cart {
+        display: none;
+    }
 }
 
 .nav_below {
