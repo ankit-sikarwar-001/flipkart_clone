@@ -12,8 +12,8 @@ function timewait() {
 
 const f0 = () => {
   a[0].style.visibility = "visible";
-  a[0].src = "imags/slide4.webp";
-  b[3].classList.remove("chn");
+  a[0].src = "imags/slide6.webp";
+  b[5].classList.remove("chn");
   b[0].classList.add("chn");
 };
 const f1 = () => {
@@ -34,6 +34,18 @@ function f3() {
   b[2].classList.remove("chn");
   b[3].classList.add("chn");
 }
+const f4 = () => {
+  a[0].style.visibility = "visible";
+  a[0].src = "imags/slide4.webp";
+  b[3].classList.remove("chn");
+  b[4].classList.add("chn");
+};
+const f5 = () => {
+  a[0].style.visibility = "visible";
+  a[0].src = "imags/slide7.webp";
+  b[4].classList.remove("chn");
+  b[5].classList.add("chn");
+};
 addEventListener("load", async function abc() {
   let val = await timewait();
 
@@ -48,6 +60,16 @@ addEventListener("load", async function abc() {
 
   if (val4 === "hidden") {
     f3();
+  }
+  let val5 = await timewait();
+
+  if (val5 === "hidden") {
+    f4();
+  }
+  let val6 = await timewait();
+
+  if (val6 === "hidden") {
+    f5();
   }
   let val3 = await timewait();
 
@@ -71,6 +93,12 @@ for (const itag of b) {
         break;
       case "3":
         f3();
+        break;
+      case "4":
+        f4();
+        break;
+      case "5":
+        f5();
         break;
       default:
         break;
