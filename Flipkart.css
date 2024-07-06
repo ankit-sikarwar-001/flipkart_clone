@@ -929,6 +929,7 @@ input[type="search"]:focus {
 }
 
 .elctro {
+    cursor: pointer;
     background-color: white;
     width: 250px;
     position: absolute;
@@ -968,6 +969,7 @@ input[type="search"]:focus {
 }
 
 .homer {
+    cursor: pointer;
     background-color: white;
     width: 250px;
     position: absolute;
@@ -1006,6 +1008,7 @@ input[type="search"]:focus {
 }
 
 .toy {
+    cursor: pointer;
     background-color: white;
     width: 250px;
     position: absolute;
@@ -1044,7 +1047,7 @@ input[type="search"]:focus {
 }
 
 .wheelie {
-
+    cursor: pointer;
     background-color: white;
     width: 220px;
     position: absolute;
@@ -1097,8 +1100,7 @@ input[type="search"]:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    z-index: 2;
+
 }
 
 #slider>.chn {
@@ -1106,12 +1108,6 @@ input[type="search"]:focus {
     overflow: hidden;
     border-radius: 12rem;
 }
-
-
-/* best of electronics  */
-/* .big_elct {
-    margin-top: 18rem;
-} */
 
 .best_electronics {
     background: white;
@@ -1264,6 +1260,7 @@ input[type="search"]:focus {
 /* beauty,food,&toys*/
 
 .beauty_block {
+    cursor: pointer;
     margin-top: 20px;
     background: white;
     margin-left: 15px;
