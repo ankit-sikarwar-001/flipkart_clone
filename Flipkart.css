@@ -1081,61 +1081,6 @@ input[type="search"]:focus {
     border-radius: 4px;
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .navbar {
-        max-width: 600px;
-        height: 50px;
-    }
-
-    .logo {
-        margin-right: 50px;
-        height: 100%;
-    }
-
-    .logo img {
-        height: 80%;
-        width: 80%;
-    }
-
-    .nav_below {
-        position: relative;
-        top: 62px;
-        /* margin: 10px; */
-        max-width: 600px;
-        width: 100vw;
-        background: #ffffff;
-        /* display: flex;
-        flex-direction: row; */
-    }
-
-    .slideshow-container {
-        max-width: 600px;
-    }
-
-    .nav_search {
-        display: none
-    }
-
-    .login {
-        margin-left: 95%;
-        font-size: x-large;
-    }
-
-
-    .triple,
-    .seller,
-    .options,
-    .cart {
-        display: none;
-    }
-}
-
 /* sliding window */
 .slideshow-container {
     margin-left: 15px;
@@ -1784,4 +1729,86 @@ input[type="search"]:focus {
 .sliding3 {
     position: absolute;
     top: 5155px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        max-width: 600px;
+        height: 50px;
+    }
+
+    .logo {
+        margin-right: 50px;
+        height: 100%;
+    }
+
+    .logo img {
+        height: 80%;
+        width: 80%;
+    }
+
+    .nav_below {
+        display: none;
+        cursor: pointer;
+        position: relative;
+        top: 62px;
+        /* margin: 10px; */
+        max-width: 600px;
+        width: 100vw;
+        background: #ffffff;
+        /* display: flex;
+        flex-direction: row; */
+    }
+
+    .slideshow-container {
+        max-width: 600px;
+
+    }
+
+    .nav_search {
+        display: none
+    }
+
+    .login {
+        margin-left: 95%;
+        font-size: x-large;
+    }
+
+
+    .triple,
+    .seller,
+    .options,
+    .cart {
+        display: none;
+    }
+
+    .best_electronics,
+    .beauty_block {
+        max-width: 600px;
+        width: 95%;
+    }
+
+    .best_electronics>.eline {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .eline>div {
+        width: 29.5%;
+    }
+
+    .addd {
+        display: none;
+    }
+
+    .sliding3 {
+        max-width: 600px;
+    }
 }
