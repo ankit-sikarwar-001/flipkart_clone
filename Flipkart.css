@@ -271,40 +271,6 @@ input[type="search"]:focus {
     display: block;
 }
 
-@media only screen and (max-width: 600px) {
-
-    .navbar {
-        max-width: 600px;
-        height: 50px;
-    }
-
-    .logo {
-        margin-right: 50px;
-        height: 100%;
-    }
-
-    .logo img {
-        height: 100%;
-        width: 100%;
-    }
-
-    .nav_search {
-        display: none
-    }
-
-    .login {
-        margin-left: 95%;
-        font-size: x-large;
-    }
-
-
-    .triple,
-    .seller,
-    .options,
-    .cart {
-        display: none;
-    }
-}
 
 .nav_below {
 
@@ -547,6 +513,7 @@ input[type="search"]:focus {
 
 .fr_womenethnic {
     border: 1px solid gray;
+
     /* margin-top: px; */
     padding-top: 10px;
     padding-left: 10px;
@@ -1112,6 +1079,61 @@ input[type="search"]:focus {
 .wheeler_hover:hover .wheelie {
     display: block;
     border-radius: 4px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        max-width: 600px;
+        height: 50px;
+    }
+
+    .logo {
+        margin-right: 50px;
+        height: 100%;
+    }
+
+    .logo img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .nav_below {
+        position: relative;
+        top: 62px;
+        /* margin: 10px; */
+        max-width: 600px;
+        width: 100vw;
+        background: #ffffff;
+        /* display: flex;
+        flex-direction: row; */
+    }
+
+    .slideshow-container {
+        max-width: 600px;
+    }
+
+    .nav_search {
+        display: none
+    }
+
+    .login {
+        margin-left: 95%;
+        font-size: x-large;
+    }
+
+
+    .triple,
+    .seller,
+    .options,
+    .cart {
+        display: none;
+    }
 }
 
 /* sliding window */

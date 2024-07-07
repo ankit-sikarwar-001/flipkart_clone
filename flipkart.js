@@ -6,7 +6,7 @@ function timewait() {
     setTimeout(function () {
       a[0].style.visibility = "hidden";
       resolve(a[0].style.visibility);
-    }, 1500);
+    }, 2500);
   });
 }
 
